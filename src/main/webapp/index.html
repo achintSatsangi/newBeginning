@@ -19,6 +19,21 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
+    <style>
+        .google-maps {
+            position: relative;
+            padding-bottom: 75%; // This is the aspect ratio
+            height: 0;
+            overflow: hidden;
+        }
+        .google-maps iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+        }
+    </style>
 	<body>
 
 		<!-- Header -->
@@ -135,7 +150,9 @@
 					<header>
                         <a target="_blank" href="http://doodle.com/poll/7dbu8fg4fbx67atp"><h2>RSVP</h2></a>
 					</header>
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1TReuYpq1yU-pJYX52hJkqtYd2sU" width="640" height="480"></iframe>
+                    <div class="google-maps">
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1TReuYpq1yU-pJYX52hJkqtYd2sU" width="640" height="480"></iframe>
+                    </div>
 				</div>
 			</section>
 		<!-- Footer -->
