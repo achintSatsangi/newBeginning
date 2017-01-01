@@ -2,8 +2,178 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17ba089e-ded8-4af3-9a23-4330b4cd5e4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/old/images/cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/old/images/email.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/old/images/email2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/old/images/facebook.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/old/images/favicon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/old/images/instagram.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/old/images/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/liquibase/changelog-add-employee-data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/liquibase/changelog-create-employee-table.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/liquibase/master.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/dao/EmployeeDaoImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/dao/EmployeeDaoImpl$EmployeeRowMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/dao/EmployeeDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/dao/PlainTextMailDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/domain/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/domain/ObjectMotherEmployee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/service/EmployeeService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/service/SendMailService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/test/HelloWorld.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/util/DaoUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/webresource/EmployeeWebResource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/org/vs/webresource/SendMailResource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/screenshots/createPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/screenshots/editPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/screenshots/mainPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/classes/spring/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/activation-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/guava-18.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/jackson-jaxrs-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/jackson-xc-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/jna-4.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/jna-platform-4.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/joda-time-2.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/liquibase-core-3.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/mail-1.4.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/postgresql-9.4-1200-jdbc41.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/servlet-api-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/slf4j-api-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/slf4j-simple-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-aop-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-beans-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-context-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-context-support-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-core-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-expression-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-jdbc-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-orm-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-test-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-tx-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-web-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/spring-webmvc-4.0.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/lib/waffle-jna-1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/.sass-cache/431ccf47bb9651fa398632304796bdee9a381f7d/main.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/.sass-cache/60fae8a5dafa08d20202fa888216b5c160b73f58/v8.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/.sass-cache/60fae8a5dafa08d20202fa888216b5c160b73f58/v9.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/.sass-cache/de61229414eb9b5d090fbdc1602a938726674dbe/_functions.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/.sass-cache/de61229414eb9b5d090fbdc1602a938726674dbe/_mixins.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/.sass-cache/de61229414eb9b5d090fbdc1602a938726674dbe/_skel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/.sass-cache/de61229414eb9b5d090fbdc1602a938726674dbe/_vars.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/css/ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/css/ie9.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/css/images/arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/css/images/dark-arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/css/images/overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/css/images/poptrox-closer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/css/images/poptrox-nav.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/ie/PIE.htc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/ie/backgroundsize.min.htc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/ie/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/ie/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/jquery.poptrox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/jquery.scrollex.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/jquery.scrolly.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/skel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/js/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/sass/ie8.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/sass/ie9.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/sass/libs/_functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/sass/libs/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/sass/libs/_skel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/sass/libs/_vars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/assets/sass/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/create.mustache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/edit.mustache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/favicon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/old/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/old/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/old/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/old/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/old/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/fulls/old/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/intro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/one.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/old/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/old/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/old/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/old/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/old/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/thumbs/old/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/images/two.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/index3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/list.mustache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/old/images/cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/old/images/email.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/old/images/email2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/old/images/facebook.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/old/images/favicon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/old/images/instagram.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/old/images/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/anaam/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/liquibase/changelog-add-employee-data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/liquibase/changelog-create-employee-table.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/liquibase/master.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/dao/EmployeeDaoImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/dao/EmployeeDaoImpl$EmployeeRowMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/dao/EmployeeDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/dao/PlainTextMailDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/domain/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/domain/ObjectMotherEmployee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/service/EmployeeService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/service/SendMailService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/test/HelloWorld.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/util/DaoUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/webresource/EmployeeWebResource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/vs/webresource/SendMailResource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/screenshots/createPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/screenshots/editPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/screenshots/mainPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/jetty-runner.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/org/vs/dao/EmployeeDaoImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/org/vs/service/EmployeeServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/org/vs/test/HelloWorldTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/org/vs/webresource/EmployeeWebResourceTest.class" afterPath="" />
     </list>
     <ignored path="anaam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +216,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10297483">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.6666666">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="93.55604">
+              <caret line="2894" column="68" selection-start-line="2894" selection-start-column="68" selection-end-line="2894" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -138,6 +318,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="newBeginning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anaam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newBeginning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anaam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newBeginning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anaam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newBeginning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anaam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newBeginning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -590,16 +850,16 @@
       <created>1483300019647</created>
       <option name="number" value="Default" />
       <updated>1483300019647</updated>
-      <workItem from="1483300024315" duration="3545000" />
+      <workItem from="1483300024315" duration="3697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3545000" />
+    <option name="totallyTimeSpent" value="3697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -611,7 +871,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287858" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -647,14 +907,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/intro.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2894" column="68" selection-start-line="2894" selection-start-column="68" selection-end-line="2894" selection-end-column="68" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/sass/ie8.scss">
@@ -725,8 +977,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10297483">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.6666666">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="93.55604">
+          <caret line="2894" column="68" selection-start-line="2894" selection-start-column="68" selection-end-line="2894" selection-end-column="68" />
           <folding />
         </state>
       </provider>
