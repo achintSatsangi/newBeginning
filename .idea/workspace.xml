@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17ba089e-ded8-4af3-9a23-4330b4cd5e4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/bangles_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/bangles.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/bangles_old.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/intro.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/intro.jpg" />
     </list>
     <ignored path="anaam.iws" />
@@ -43,15 +44,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paan.jpg" pinned="false" current-in-tab="false">
+      <file leaf-file-name="paan.jpg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/images/paan.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bangles_old.jpg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/images/bangles_old.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -694,7 +688,7 @@
       <workItem from="1483375291519" duration="3351000" />
       <workItem from="1483532535659" duration="409000" />
       <workItem from="1483743333476" duration="883000" />
-      <workItem from="1483773698871" duration="469000" />
+      <workItem from="1483773698871" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="Changed 10 mins after to approximate time">
       <created>1483383589218</created>
@@ -706,7 +700,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15872000" />
+    <option name="totallyTimeSpent" value="16157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="6" />
@@ -986,11 +980,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/paan.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/bangles_old.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
