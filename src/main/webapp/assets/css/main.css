@@ -2907,6 +2907,17 @@
 	background-position: top left, center center;
 }
 
+/* Four */
+
+#four {
+	background: url("images/overlay.png"), url("../../images/intro.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, bottom center;
+	background-repeat: repeat, no-repeat;
+	opacity: 0.8;
+}
+
 /* Work */
 
 	#work .row.images .image {
